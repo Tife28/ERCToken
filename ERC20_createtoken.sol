@@ -2,7 +2,7 @@
 pragma solidity ^0.8.3;
 
 
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/constracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 //Create token name-Token using symbol-Naira
 contract Token is ERC20 {
