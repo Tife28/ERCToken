@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 //Create token name-Token using symbol-Naira
 contract Token is ERC20 {
-    constructor(uint256 initialSupply) ERC20("Token", "Naira") {
+    constructor(uint256 initialSupply) ERC20("Token", "Pounds") {
         _mint(msg.sender, initialSupply);
     }
 }
