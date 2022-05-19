@@ -138,9 +138,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         _afterTokenTransfer(address(0), account, amount);
     }
 
-    /**
-     * @dev Destroys `amount` tokens from `account`, reducing the
-     * total supply.
+    /*Destroys `amount` tokens from `account`, reducing the total supply.
      *Emits a {Transfer} event with `to` set to the zero address.
      */
     function _burn(address account, uint256 amount) internal virtual {
@@ -161,7 +159,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
     }
 
     /**
-     * @dev Sets `amount` as the allowance of `spender` over the `owner` s tokens.
+     * Sets `amount` as the allowance of `spender` over the `owner` s tokens.
      * Emits an {Approval} event.
      */
     function _approve(
